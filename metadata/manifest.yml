@@ -2,7 +2,7 @@
 Name: node-nginx
 Cartridge-Short-Name: NODE
 Display-Name: Node (nginx)
-Version: '4.5.0'
+Version: '7.4.0'
 Cartridge-Version: 0.0.1
 Cartridge-Vendor: sbtoledo
 Website: https://github.com/sbtoledo/openshift-cartridge-node-nginx
