@@ -1,17 +1,16 @@
-# openshift-cartridge-node-nginx
+# atrakeur-com-cartridge-node-nginx
+
+Custom cartridge used to deploy my nodejs applications on the cloud.
+Based on a nodejs Cartridge from Sbtoledo ([here](https://github.com/sbtoledo/openshift-cartridge-node-nginx)) but with some minor changes to the configuration.
 
 A Node.js cartridge for OpenShift using nginx as a reverse proxy. It's intended for small to middle-sized applications, reducing Node.js demand—less database queries, template rendering, etc. For more information about how nginx handle the requests, look at the `conf/nginx.conf.erb` file.
 
 ## Install
 
-### Create a new application through web interface
+### Create a new application with this url
 
-[Node.js (nginx)](https://openshift.redhat.com/app/console/application_type/custom?cartridges%5B%5D=https%3A%2F%2Fraw.githubusercontent.com%2Fsbtoledo%2Fopenshift-cartridge-node-nginx%2Fmaster%2Fmetadata%2Fmanifest.yml)
-
-### Create a new application through `rhc`
-
-```bash
-rhc create-app {myAppName} https://raw.githubusercontent.com/sbtoledo/openshift-cartridge-node-nginx/master/metadata/manifest.yml
+```
+https://raw.githubusercontent.com/atrakeur/atrakeur-com-cartridge-node-nginx/master/metadata/manifest.yml
 ```
 
 ## Use
