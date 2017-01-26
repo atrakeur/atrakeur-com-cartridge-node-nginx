@@ -1,6 +1,6 @@
 ---
 apps:
-    - script: <%= ENV['OPENSHIFT_REPO_DIR'] %>/index.js
+    - script: <%= ENV['OPENSHIFT_REPO_DIR'] %>/build/index.js
       cwd: <%= ENV['OPENSHIFT_REPO_DIR'] %>
       exec_mode: cluster
       instances: 1
